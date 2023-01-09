@@ -1,0 +1,266 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+/*--------Navigation--------*/
+#nav-bar
+{
+   position:sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 150px;
+    padding-left: 10px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-----Slider----*/
+#slider
+{
+    width: 100%
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important
+}
+.carousel-caption
+{
+    color: #fff;
+    font-size: 42px;
+}
+/*-------About------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+/*------------Packages----------*/
+#Packages
+{
+
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     background-image: url(../images/services.jpg);
+}
+
+#Packages h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#Packages h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic
+{
+    margin-top: 20px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #00a8ff !important
+}
+.profile-pic h3
+{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#team .fa
+{
+    height: 25px;
+    width: 25px;
+    color: #007bff; !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%
+}
+.img-box ul
+{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+}
+.img-box:hover ul
+{
+    opacity:1;
+}
+.img-box ul, .img-box ul li
+{
+    transition:0.5s;
+}
+/*-------Prediction-----*/
+#prediction
+{
+
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../images/prediction.jpg);
+}
+
+#prediction h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#prediction h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 300px;
+    margin: 20px auto 5px;
+}
+#prediction.login {
+	position: absolute;
+	top: 5%;
+	left:38%;
+
+	width:400px;
+	height:800px;
+}
+
+#prediction.login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
+
+input
+{
+
+
+	margin-bottom: 10px;
+
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #000;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+form{
+text-align: center;
+width: 50%;
+margin: 0 auto;}
+
+.login input,.login select{
+width:60%;
+float: right;
+padding: 0 10px
+}
+
+.login label{
+float: left
+}
+
+.predictiontext{
+margin: 0 auto;
+text-align: center;
+width: fit-content;
+margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

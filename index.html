@@ -1,0 +1,344 @@
+<html>
+<head>
+<title>Tourism</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>       
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<!-----NavigationBar----->
+<section id="nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="static/images/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#about">ABOUT</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#Packages">PACKAGES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Our Team">OUR TEAM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#prediction">PREDICTION</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</section>
+<!------Slider------>
+<div id="slider">
+<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="static/images/tourism3.jpg">
+        <div class="carousel-caption">
+        <h5>Pool Area</h5>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img  class="d-block img-fluid" src="static/images/tourism2.jpg">
+        <div class="carousel-caption">
+        <h5>Lounge</h5>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img  class="d-block img-fluid" src="static/images/tourism1.jpg">
+        <div class="carousel-caption">
+        <h5>Banquet Hall</h5>
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#headerSlider" role=button data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+</div>
+    <!-------ABOUT------>
+<section id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h2>About Us</h2>
+<div class="about-content">
+To harness the available data of existing and potential customers to make the marketing expenditure more efficient and to predict which customer is more likely to purchase the newly introduced travel package.
+</div>
+<button type="button" class="btn btn-primary">read more>>
+</button>
+</div>
+</div>
+</div>
+</section>
+    <!--------Packages------->
+<section id="Packages">
+    <div class="container">
+        <h1>Our Packages</h1> 
+    <div class="row">
+    <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/Basic.jpg" style="width:200px;height:200">
+    </div> 
+        <h2>Basic</h2>
+    </div>
+        <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/Standard.jpg" style="width:200px;height:200">
+    </div> 
+        <h2>Standard</h2>
+    </div>
+        <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/Deluxe.jpg" style="width:200px;height:200">
+    </div> 
+        <h2>Deluxe</h2>
+    </div>
+        <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/Superdeluxe.jpg" style="width:200px;height:200">
+    </div> 
+        <h2>Superdeluxe</h2>
+    </div>
+        <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/king.jpg" style="width:200px;height:200">
+    </div> 
+        <h2>King</h2>
+    </div>
+ </div> 
+    </div>
+    
+    </section>
+    <!--------Our Team------->
+<section id="Our Team">
+<div class="container">
+    <h1>Our Team</h1>
+    <div class="row">
+    <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/Anoop.jpg" style="width:150px;height:200">
+    <ul>
+    <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+    <a href="#"><li><i class="fa fa-twitter"></i></li></a>   
+    <a href="#"><li><i class="fa fa-linkedin"></i></li></a>   
+    </ul> 
+    </div> 
+        <h2>Anoop S V</h2>
+        <h3>Group 5</h3>
+        <p>ICT Academy of Kerala</p>
+    </div>
+        <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/Shamin.png" style="width:150px;height:200">
+    <ul>
+    <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+    <a href="#"><li><i class="fa fa-twitter"></i></li></a>   
+    <a href="#"><li><i class="fa fa-linkedin"></i></li></a>   
+    </ul> 
+    </div> 
+        <h2>Baby Shamin</h2>
+        <h3>Group 5</h3>
+        <p>ICT Academy of Kerala</p>
+    </div>
+        <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/Divya.jpeg" style="width:150px;height:200">
+    <ul>
+    <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+    <a href="#"><li><i class="fa fa-twitter"></i></li></a>   
+    <a href="#"><li><i class="fa fa-linkedin"></i></li></a>   
+    </ul> 
+    </div> 
+        <h2>Divya Sukesh</h2>
+        <h3>Group 5</h3>
+        <p>ICT Academy of Kerala</p>
+    </div>
+        <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/Shanija.jfif" style="width:150px;height:200">
+    <ul>
+    <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+    <a href="#"><li><i class="fa fa-twitter"></i></li></a>   
+    <a href="#"><li><i class="fa fa-linkedin"></i></li></a>   
+    </ul> 
+    </div> 
+        <h2>Shanija Ragesh</h2>
+        <h3>Group 5</h3>
+        <p>ICT Academy of Kerala</p>
+    </div>
+        <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="static/images/Taniya.jpg" style="width:150px;height:200">
+    <ul>
+    <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+    <a href="#"><li><i class="fa fa-twitter"></i></li></a>   
+    <a href="#"><li><i class="fa fa-linkedin"></i></li></a>   
+    </ul> 
+    </div> 
+        <h2>Taniya Mary Jaimon</h2>
+        <h3>Group 5</h3>
+        <p>ICT Academy of Kerala</p>
+    </div>
+ </div> 
+</div>
+</section>
+<!------Prediction------>
+  <section id="prediction">
+<div class="container">
+<div class="login">
+    <h1>Travel Package Prediction</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}" method='POST'>
+        <br>
+            <label for="Age">Age:</label>
+            <input type="text" name="Age"  placeholder="Age"   required="required" />
+        <br>
+        <br>
+            <label for="TypeofContact">Type of Contact:</label>
+            <select name="TypeofContact" id="TypeofContact">
+            <option value="" disabled selected hidden>--Select--<
+            <option value="1">Self Enquiry</option>
+            <option value="0">Company Invited</option>
+        <   </select>
+        <br>
+        <br>
+            <label for="CityTier">City Tier</label>
+        <select name="CityTier" id="CityTier">
+        <option value="" disabled selected hidden>--Select--<
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+
+        </select>
+        <br>
+        <br>
+        <label for="DurationOfPitch">Duration Of Pitch:</label>
+            <input type="text" name="DurationOfPitch" placeholder="duration of pitch" required="required" />
+        <br>
+        <br>
+            <label for="Gender">Gender:</label>
+            <select name="Gender" id="Gender">
+            <option value="" disabled selected hidden>--Select--<
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+        <   </select>
+        <br>
+        <br>
+            <label for="ProductPitched">Select a Product:</label>
+            <select name="ProductPitched" id="Productpitched">
+            <option value="" disabled selected hidden>--Select--<
+            <option value="0">Basic</option>
+            <option value="3">Standard</option>
+            <option value="1">Deluxe</option>
+            <option value="4">Super Deluxe</option>
+            <option value="2">King</option>
+            </select>
+        <br>
+        <br>
+            <label for="MaritalStatus">Marital status</label>
+            <select name="MaritalStatus" id="MaritalStatus">
+            <option value="" disabled selected hidden>--Select--<
+            <option value="2">Single</option>
+            <option value="1">Married</option>
+            <option value="0">Divorced</option>
+
+            </select>
+        <br>
+        <br>
+        <label for="NumberOfTrips">Number Of Trips:</label>
+            <input type="text" name="NumberOfTrips" placeholder="number of trips" required="required" />
+        <br>
+
+        <br>
+            <label for="Designation">Designation</label>
+            <select name="Designation" id="Designation">
+            <option value="" disabled selected hidden>--Select--<
+            <option value="2">Manager</option>
+            <option value="1">Executive</option>
+            <option value="3">Senior Manager</option>
+            <option value="0">AVP</option>
+            <option value="4">VP</option>
+
+            </select>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">predict</button>
+    </form>
+
+
+
+
+   <br>
+   <div class="predictiontext">{{ prediction_text }}</div>
+</div>
+
+</div>
+</section>
+
+   <!-------End------>
+    <script src="js/smooth-scroll.js">
+    </script>
+    <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
